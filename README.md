@@ -1,7 +1,7 @@
 #Project title: sales_order_automation
 #Video demo (youtube link): 
 #Description: A code to create sales orders in the SAP system automatically, #based on information from an excel file.
-#######################
+
 During my time working in the area of production line programming at a company in Brazil, I found that there were many manual processes that required a lot of time to carry out.
 My job was to create sales orders within the SAP (System Applications and Products in Data Processing) system, which is nothing more than an RP system that is divided into numerous modules. 
 This system was responsible for dictating the production line, but in order to be able to continue with the production process, it was necessary to create sales orders for the products. This activity required many hours of work, because in addition to the payment terms, the types of orders had to be changed according to each type of product purchased by the customer. 
@@ -16,8 +16,6 @@ With each line, it performs a step within the SAP system, simulating the user's 
 It will access transaction VA01, which in the SAP ECC version is the transaction used to create sales orders. After accessing it, it will define the type of order, add information in each field relating to the plant, sales area, when the selection is complete, it will enter another screen and fill in the following information: Order type, Order issuer, Goods recipient, Customer reference, Payment code, Incoterms, Material and Order quantity.
 At the end, it will save the order and display the generated order on the screen.
 It's worth remembering that for this situation I've only placed one order and defined some information as standard, however it can be #adapted to your needs.
-##################
-
 
 
 
