@@ -1,4 +1,4 @@
-submit50 problem
+
 #Project title: sales_order_automation
 #Video demo (youtube link): https://youtu.be/UJwB2G1c7qo
 #Description: A code to create sales orders in the SAP system automatically, #based on information from an excel file.
@@ -19,7 +19,6 @@ At the end, it will save the order and display the generated order on the screen
 It's worth remembering that for this situation I've only placed one order and defined some information as standard, however it can be #adapted to your needs.
 
 
-submit50 cs50/problems/2024/x/project
 
 
 
