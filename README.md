@@ -11,7 +11,7 @@
 
 #In the second stage (2.), a dataframe was defined which contains the information on the requests to be created. This dataframe can be extracted from excel, csv, etc. In addition, it is worth noting that the information that makes up the sales order will depend directly on the #business rule, as each company may have its own particularities, so if it were to be used for other companies it would be necessary to adapt the fields according to their needs.
 
-#The third moment (3.) will start with the logic itself, a for loop has been created for iteration, so if there are more than one record in the #spreadsheet the idea is to make it execute all the records and at the end successfully execute all the sales orders.
+#The third moment (3.) will start with the logic itself, a for loop has been created for iteration, so if there are more than one record in the spreadsheet the idea is to make it execute all the records and at the end successfully execute all the sales orders.
 With each line, it performs a step within the SAP system, simulating the user's actions. The SAP script recorder was used to obtain the SAP steps. 
 It will access transaction VA01, which in the SAP ECC version is the transaction used to create sales orders. After accessing it, it will define the type of order, add information in each field relating to the plant, sales area, when the selection is complete, it will enter another screen and fill in the #following information: Order type, Order issuer, Goods recipient, Customer reference, Payment code, Incoterms, Material and Order quantity.
 
