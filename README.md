@@ -18,7 +18,7 @@ At the end, it will save the order and display the generated order on the screen
 It's worth remembering that for this situation I've only placed one order and defined some information as standard, however it can be #adapted to your needs.
 
 
-
+submit50 cs50/problems/2024/x/project
 
 
 
