@@ -9,7 +9,7 @@ Some time later, when I moved to another area, I was able to develop what #they 
 
 At the first moment (1.) the command initializes the SAP system. It's worth remembering that we can create a password authenticator so that the user enters their password and enters the SAP system, or we can instruct the user to open their SAP system before starting the program.
 
-In the second stage (2.), a dataframe was defined which contains the information on the requests to be created. This dataframe can be extracted from excel, csv, etc. In addition, it is worth noting that the information that makes up the sales order will depend directly on the #business rule, as each company may have its own particularities, so if it were to be used for other companies it would be necessary to adapt the fields according to their needs.
+In the second stage (2.), a dataframe was defined which contains the information on the requests to be created. This dataframe can be extracted from excel, csv, etc. In addition, it is worth noting that the information that makes up the sales order will depend directly on the business rule, as each company may have its own particularities, so if it were to be used for other companies it would be necessary to adapt the fields according to their needs.
 
 The third moment (3.) will start with the logic itself, a for loop has been created for iteration, so if there are more than one record in the spreadsheet the idea is to make it execute all the records and at the end successfully execute all the sales orders.
 With each line, it performs a step within the SAP system, simulating the user's actions. The SAP script recorder was used to obtain the SAP steps. 
